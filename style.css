@@ -79,16 +79,16 @@ body {
 
 #header ul {
   float: right;
-  width: 600px;
+  width: 630px;
   height: 52px;
   margin-top: 22px;
   list-style: none; }
 
 #header ul li {
   float: right;
-  width: 80px;
+  width: 85px;
   line-height: 51px;
-  margin-left: 15px;
+  margin-left: 20px;
   font-size: 18px;
   text-align: center;
   border-bottom: 3px solid transparent; }
