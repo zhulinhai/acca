@@ -86,10 +86,10 @@ body {
 
 #header ul li {
   float: right;
-  width: 100px;
+  width: 80px;
   line-height: 51px;
-  margin-left: 20px;
-  font-size: 20px;
+  margin-left: 15px;
+  font-size: 18px;
   text-align: center;
   border-bottom: 3px solid transparent; }
 
@@ -1074,6 +1074,43 @@ body {
           vertical-align: top;
           margin-top: 10px;
           margin-right: 5px; }
+
+.page-7 {
+  width: 100%;
+  height: 940px;
+  background: #F9F9F9 url("./img/2-bg1.jpg") no-repeat;
+  background-size: 100% auto; }
+  .page-7 .space {
+    width: 100%;
+    height: 115px; }
+  .page-7 .content {
+    display: block;
+    margin: 0 auto;
+    width: 996px;
+    height: 524px;
+    border: 2px solid #EAB540;
+    background-color: white; }
+    .page-7 .content .title {
+      font-size: 24px;
+      text-align: center;
+      height: 92px;
+      line-height: 92px;
+      border-bottom: 1px solid #DADBDB; }
+    .page-7 .content .item {
+      display: block;
+      margin: 30px auto 0;
+      width: 740px;
+      height: 60px;
+      border-bottom: 1px dotted #EAB540; }
+      .page-7 .content .item img {
+        float: left;
+        margin-left: 20px;
+        margin-right: 10px; }
+      .page-7 .content .item .p1 {
+        color: #B1B1B2;
+        font-size: 14px; }
+      .page-7 .content .item .p2 {
+        font-size: 18px; }
 
 .navigation {
   display: block;

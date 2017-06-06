@@ -7,8 +7,8 @@
             <div class="leftDiv">
                 <p class="mainTitle">报考资讯</p>
                 <div class="items">
-                    <a href="<?php echo home_url('/news/') ?>"><div class="item">报考指南</div></a>
-                    <a class="hover" href="<?php $cat=get_category_by_slug('paper'); echo get_category_link( $cat->term_id);  ?>"><div class="item">历史真题</div></a>
+                    <a class="hover" href="<?php echo home_url('/news/') ?>"><div class="item">报考指南</div></a>
+                    <a href="<?php $cat=get_category_by_slug('paper'); echo get_category_link( $cat->term_id);  ?>"><div class="item">历史真题</div></a>
                     <a href="<?php $cat=get_category_by_slug('examinfo'); echo get_category_link( $cat->term_id);  ?>"><div class="item">考试资讯</div></a>
                     <a href="<?php $cat=get_category_by_slug('outstanding'); echo get_category_link( $cat->term_id);  ?>"><div class="item">优秀学员</div></a>
                 </div>

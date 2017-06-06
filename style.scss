@@ -71,10 +71,10 @@ body{
 }
 #header ul li {
   float: right;
-  width: 100px;
+  width: 80px;
   line-height: 51px;
-  margin-left: 20px;
-  font-size: 20px;
+  margin-left: 15px;
+  font-size: 18px;
   text-align: center;
   border-bottom: 3px solid transparent;
 }
@@ -1025,6 +1025,51 @@ body{
 
     }
 
+  }
+}
+
+.page-7 {
+  width: 100%;
+  height: 940px;
+  background: #F9F9F9 url("./img/2-bg1.jpg") no-repeat;
+  background-size: 100% auto;
+  .space {
+    width: 100%;
+    height: 115px;
+  }
+  .content {
+    display: block;
+    margin: 0 auto;
+    width: 996px;
+    height: 524px;
+    border: 2px solid #EAB540;
+    background-color: white;
+    .title {
+      font-size: 24px;
+      text-align: center;
+      height: 92px;
+      line-height: 92px;
+      border-bottom: 1px solid #DADBDB;
+    }
+    .item {
+      display: block;
+      margin: 30px auto 0;
+      width: 740px;
+      height: 60px;
+      border-bottom: 1px dotted #EAB540;
+      img {
+        float: left;
+        margin-left: 20px;
+        margin-right: 10px;
+      }
+      .p1 {
+        color: #B1B1B2;
+        font-size: 14px;
+      }
+      .p2 {
+        font-size: 18px;
+      }
+    }
   }
 }
 

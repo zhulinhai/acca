@@ -4,6 +4,6 @@ if ( in_category('examinfo') ) {
 } else if (in_category('outstanding')) {
     include(TEMPLATEPATH . '/single-outstanding.php');
 } else {
-    include(TEMPLATEPATH . '/single-paper.php');
+    include(TEMPLATEPATH . '/single-news.php');
 }
 ?>
