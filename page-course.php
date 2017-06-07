@@ -16,7 +16,7 @@
                         <p>周六周日上课，共计536课时</p>
                         <p class="h1">【课程特色】</p>
                         <p>由上海财经大学强大的专业师资力量，面对面高质量授课，沉淀丰富的教学经验，考试通过率高达60%-70%</p>
-                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=741096755&site=qq&menu=yes"><div class="btnAsk"><img border="0" src="<?php echo get_bloginfo('template_url') ?>/img/tencent.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>在线咨询</div></a>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=466749081&site=qq&menu=yes"><div class="btnAsk"><img border="0" src="<?php echo get_bloginfo('template_url') ?>/img/tencent.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>在线咨询</div></a>
                     </div>
                     <a href="<?php $cat=get_category_by_slug('weekend'); echo get_category_link( $cat->term_id);  ?>"><div class="btnMore">了解更多</div></a>
                 </div>
@@ -27,7 +27,7 @@
                         <p>寒暑假上课，共计536课时</p>
                         <p class="h1">【课程特色】</p>
                         <p>由上海财经大学强大的专业师资力量，面对面高质量授课，沉淀丰富的教学经验，考试通过率高达60%-70%</p>
-                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=741096755&site=qq&menu=yes"><div class="btnAsk"><img border="0" src="<?php echo get_bloginfo('template_url') ?>/img/tencent.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>在线咨询</div></a>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=466749081&site=qq&menu=yes"><div class="btnAsk"><img border="0" src="<?php echo get_bloginfo('template_url') ?>/img/tencent.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>在线咨询</div></a>
                     </div>
                     <a href="<?php $cat=get_category_by_slug('wsvacation'); echo get_category_link( $cat->term_id);  ?>"><div class="btnMore">了解更多</div></a>
                 </div>

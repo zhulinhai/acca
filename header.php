@@ -20,7 +20,7 @@
     <div id="header">
         <div class="logo"><img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png" alt=""></div>
         <div class="btnDiv">
-            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=741096755&site=qq&menu=yes"><button class="btnAsk"><img border="0" src="<?php echo get_bloginfo('template_url') ?>/img/tencent.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>在线咨询</button></a>
+            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=466749081&site=qq&menu=yes"><button class="btnAsk"><img border="0" src="<?php echo get_bloginfo('template_url') ?>/img/tencent.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>在线咨询</button></a>
             <a href="<?php $cat=get_category_by_slug('submit'); echo get_category_link( $cat->term_id);  ?>"><button class="btnSubmit">马上报名</button></a>
         </div>
         <?php wp_page_menu(array('theme_location' => 'header-menu', 'echo' => true, 'container' => false, 'items_wrap' => '%3$s')) ?>
