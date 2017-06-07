@@ -13,7 +13,7 @@
             </div>
             <div class="item">
                 <a href="javascript:submitInfo();"><div class="submitInfo">提交信息</div></a>
-                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=741096755&site=qq&menu=yes"><button class="btnAsk"><img border="0" src="<?php echo get_bloginfo('template_url') ?>/img/tencent.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>在线咨询</button></a>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=466749081&site=qq&menu=yes"><button class="btnAsk"><img border="0" src="<?php echo get_bloginfo('template_url') ?>/img/tencent.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>在线咨询</button></a>
             </div>
 
         </div>
