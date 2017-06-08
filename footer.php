@@ -35,7 +35,7 @@
                         <td><a href="<?php echo home_url('/category/news/outstanding/') ?>">优秀学员</a></td>
                     </tr>
                 </table>
-                <p class="address"><img class="icon" src="<?php echo get_bloginfo('template_url') ?>/img/location.png">地址：北京市海淀区中关村南大街天作国际中心裙楼二层A019 武汉市洪山区珞喻路10号群光中心1324号</p>
+                <p class="address"><img class="icon" src="<?php echo get_bloginfo('template_url') ?>/img/location.png">地址：北京市海淀区中关村南大街天作国际中心裙楼二层A019&nbsp;&nbsp;&nbsp;&nbsp;武汉市洪山区珞喻路10号群光中心1324号</p>
             </div>
         </div>
         <div id="footer">
