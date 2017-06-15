@@ -329,6 +329,62 @@ body{
       margin: 30px auto 0;
     }
   }
+  .videoFrame {
+    .items {
+      .item {
+        display: inline-block;
+        width: 270px;
+        height: 60px;
+        margin: 0 30px;
+        line-height: 60px;
+        text-align: center;
+        font-size: 16px;
+        color: #656667;
+        font-weight: bold;
+        background: url("./img/1-itemNormal.png") no-repeat center;
+      }
+      .hover {
+        color: #000;
+        background: url("./img/1-itemHover.png") no-repeat center;
+      }
+    }
+    .videoBox {
+      display: block;
+      margin: 30px auto 20px;
+      width: 870px;
+      height: 496px;
+      border: 2px solid #ECBD58;
+      .video-js {
+        margin: 14px 15px;
+      }
+    }
+    p {
+      display: block;
+      margin: 0 auto 30px;
+      width: 870px;
+    }
+    .name {
+      font-size: 24px;
+      font-weight: bold;
+      color: #474748;
+      padding-top: 10px;
+      margin-bottom: 10px;
+      span {
+        display: inline-block;
+        width: 5px;
+        height: 20px;
+        margin-right: 5px;
+        margin-top: 3px;
+        background-color: #474748;
+        vertical-align: top;
+      }
+    }
+    .detail {
+      margin-top: 0;
+      font-size: 14px;
+      color: #474748;
+    }
+  }
   .content-4 {
     margin-bottom: 50px;
     .items {

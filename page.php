@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <div class="swiper-container" style="height: 593px;">
     <div class="cover leftCover"></div>
     <div class="cover rightCover"></div>
@@ -100,6 +101,19 @@
         </div>
         <a href="<?php echo home_url('/course/') ?>"><div class="btnMore">了解更多</div></a>
     </div>
+    <img class="title" src="<?php echo get_bloginfo('template_url') ?>/img/1-title4.jpg" />
+    <div class="videoFrame">
+        <div class="items">
+            <div class="item hover">01</div>
+            <div class="item">02</div>
+            <div class="item">03</div>
+        </div>
+        <div class="videoBox">
+            <video id="videoPlayer" class="video-js vjs-big-play-centered" width="840" height="472" controls="controls" preload="auto" loop="true" webkit-playsinline playsinline></video>
+        </div>
+        <p class="name"><span></span><label id="teacherName">Lisa Shen</label></p>
+        <p class="detail" id="teacherSpeak">如何简单高效的学习ACCA，简化理解内容，以幽默专业负责的态度减轻大家的学习压力</p>
+    </div>
     <img class="title" src="<?php echo get_bloginfo('template_url') ?>/img/1-title3.png" />
     <div class="content-4">
         <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
@@ -123,4 +137,4 @@
     </div>
 </div>
 
-<?php get_footer(); ?>
+<?php get_footer('home'); ?>
