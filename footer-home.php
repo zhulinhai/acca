@@ -46,11 +46,12 @@
 
 <script src="<?php echo get_bloginfo('template_url') ?>/js/jquery-1.10.1.min.js"></script>
 <script src="<?php echo get_bloginfo('template_url') ?>/js/idangerous.swiper2.7.6.min.js"></script>
+
+<script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 <!-- 加载 VideoJS js -->
-<script src="http://vjs.zencdn.net/5.8.8/video.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/4.0.1/videojs-contrib-hls.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
 <!-- 皮肤 -->
-<link rel="stylesheet" href="http://vjs.zencdn.net/5.8.8/video-js.css" type="text/css" media="screen" title="Video JS">
+<link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
 <script type="text/javascript">
     var videoJson = [
         {'name':'Lisa Shen', 'thumbDetail': '如何简单高效的学习ACCA，简化理解内容，以幽默专业负责的态度减轻大家的学习压力','src': 'http://vedio.yunmfang.com/5814cb957479a.mp4', poster:'http://vedio.yunmfang.com/1-placeHolder-10.jpg'},
